@@ -98,6 +98,7 @@ if k == 0:
     tree = kruskal(ds, roads, tree)
     print(n-1)
     for _, _, _, i in tree:
-        print(i+1, sep=" ")
+        print(str(i+1)+" ", end="")
+    print()
 else:
     print(-1)
